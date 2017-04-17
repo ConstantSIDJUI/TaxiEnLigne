@@ -30,7 +30,14 @@
 
 	<!-- Library - Loader CSS -->
   {% block stylesheets %}
-    {% stylesheets filter='cssrewrite'
+    <!-- Library - Google Font Familys -->
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+      <link href='https://fonts.googleapis.com/css?family=Cabin:400,400italic,500,500italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
+      <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+      <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+      <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+      <link href='https://fonts.googleapis.com/css?family=Lato:400,100italic,100,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    {% stylesheets
       'bundles/pages/libraries/loader/loaders.min.css'
       'bundles/pages/libraries/bootstrap/bootstrap.min.css'
       'bundles/pages/libraries/bootstrap/bootstrap-datetimepicker.min.css'
@@ -46,17 +53,9 @@
       'bundles/pages/css/latin.css'
       'bundles/pages/css/fontStyle.css'
       'bundles/pages/css/navigation-menu.css'
-      'bundles/pages/css/Cstyle.css'
-      'bundles/pages/css/Bstyle.css'
+      'bundles/pages/css/main.css'
       filter='cssrewrite, ?yui_css' %}
     <link type="text/css" rel="stylesheet" media="screen" href="{{ asset_url }}" />
-    <!-- Library - Google Font Familys -->
-  	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
-  	<link href='https://fonts.googleapis.com/css?family=Cabin:400,400italic,500,500italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
-  	<link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
-  	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-  	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-  	<link href='https://fonts.googleapis.com/css?family=Lato:400,100italic,100,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
     {% endstylesheets %}
   {% endblock %}
 
@@ -105,7 +104,7 @@
 			<div class="container">
 				<div class="col-md-4 logo-block pull-left">
 					<a href="#">
-						<img src="{{ asset('bundles/pages/img/logo.png') }}" alt="Logo" />
+						<img src="{{ asset('bundles/pages/img/logo.jpg') }}" alt="Logo" />
 						<b>National Cab</b><span>Always there for you</span>
 					</a>
 				</div>
@@ -197,7 +196,7 @@
 						</div><!-- /input-group -->
 					</div>
 					<ul>
-						<li><a href="#"><img src="{{ asset('bundles/pages/img/ftr-fb.png') }}" alt="ftr" /></a></li>
+						<li><a href="#"><img src="{{ asset('bundles/pages/img/icon/ftr-fb.png') }}" alt="ftr" /></a></li>
 						<li><a href="#"><img src="{{ asset('bundles/pages/img/icon/ftr-g+.png') }}" alt="ftr" /></a></li>
 						<li><a href="#"><img src="{{ asset('bundles/pages/img/icon/ftr-tumbler.png') }}" alt="ftr" /></a></li>
 						<li><a href="#"><img src="{{ asset('bundles/pages/img/icon/ftr-dribbble.png') }}" alt="ftr" /></a></li>

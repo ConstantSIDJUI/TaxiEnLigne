@@ -241,7 +241,7 @@ a.see-more:hover{
 /* -- Book Details */
 .book-details {
 	text-align: center;
-	background: url("../images/book-details/book-details.jpg");
+	background: url('../img/book-details/book-details.jpg');
 	background-size: cover;	
 	position: relative;
 	display: inline-block;
@@ -249,7 +249,7 @@ a.see-more:hover{
 	color: #fff;
 }
 .book-details .section-header {
-	background: url("../images/icon/seprator-white.png");
+	background: url('../img/icon/seprator-white.png');
 	background-repeat: no-repeat;
 	background-position: bottom;
 	display: inline-block;
@@ -627,7 +627,7 @@ a.see-more:hover{
 /* -- Testimonial */
 .testimonial {
 	text-align: center;
-	background:url("../images/testimonial/testimonial.jpg");
+	background:url('../img/testimonial/testimonial.jpg');
 	display: inline-block;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -1162,7 +1162,7 @@ a.learn-more{
 	text-align: left;
 }
 .more-than-you .section-header {
-	background-image: url("../images/icon/title-separator.png");
+	background-image: url('../img/icon/title-separator.png');
 	background-position: left bottom;
 	margin-bottom: 10px;
 }
@@ -1179,7 +1179,7 @@ a.learn-more{
 }
 .more-than-you ul li::before {
 	content: "";
-	background: url("../images/icon/bullet.png");
+	background: url('../img/icon/bullet.png');
 	width: 11px;
 	height: 15px;
 	display: inline-block;
@@ -1195,7 +1195,7 @@ a.learn-more{
 
 /* - Services */
 .services {
-	background: url("../images/services/service-bg.jpg");
+	background: url('../img/services/service-bg.jpg');
 	background-size: cover;
 	height: 100%;
 	width: 100%;
@@ -1331,7 +1331,7 @@ a.learn-more{
 
 /* - Counter Style2 */
 .counter-style2 {
-	background-image: url("../images/counter-app/counter-bg.jpg");
+	background-image: url('../img/counter-app/counter-bg.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100%;
@@ -1623,7 +1623,7 @@ a.learn-more{
 	position: relative;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-image: url("../images/blog/blog-banner.jpg");
+	background-image: url('../img/blog/blog-banner.jpg');
 }
 .page-banner::before {
 	position: absolute;
@@ -1745,7 +1745,7 @@ a.learn-more{
 	display: inline-block;
 	margin-top: 50px;
 	margin-bottom: 30px;
-	background-image: url("../images/icon/widget-title-seprator.png");
+	background-image: url('../img/icon/widget-title-seprator.png');
 	background-repeat: no-repeat;
 	background-position: left bottom;
 	width: 100%;
@@ -1814,7 +1814,7 @@ a.learn-more{
 .categories-type li::before {
 	position: absolute;
 	content: "";
-	background: url("../images/widget/bullet.png");
+	background: url('../img/widget/bullet.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	left: 0;
@@ -1949,7 +1949,7 @@ a.learn-more{
 	border: none;
 	display: inline-block;
 	width: 100%;
-	background-image: url("../images/icon/blockquote.png");
+	background-image: url('../img/icon/blockquote.png');
 	background-position: left center;
 	background-repeat: no-repeat;
 	padding-left: 45px;
@@ -2244,7 +2244,7 @@ a.learn-more{
 /* -- Faq Section */
 .faq-section .section-header,
 .blog-area .section-header {
-	background-image: url("../images/icon/title-separator.png");
+	background-image: url('../img/icon/title-separator.png');
 	background-position: left bottom;
 }
 .faq-section .section-header h3,
@@ -2343,11 +2343,11 @@ a.learn-more{
 		background-position: center center;
 	}
 	.faq-section .panel-default > .panel-heading a.collapsed:before {
-		background-image: url("../images/faq/closed.png");
+		background-image: url('../img/faq/closed.png');
 		background-color: transparent;
 	}
 	.faq-section .panel-default > .panel-heading a:before {
-		background-image: url("../images/faq/open.png");
+		background-image: url('../img/faq/open.png');
 		background-color: #de302f;		
 	}
 	.faq-section .panel-title > a.collapsed,
@@ -2510,7 +2510,7 @@ a.learn-more{
 }
 
 .contact-form .section-header {
-	background-image: url("../images/icon/title-separator.png");
+	background-image: url('../img/icon/title-separator.png');
 	background-position: left bottom;
 	margin-bottom: 30px;
 }
